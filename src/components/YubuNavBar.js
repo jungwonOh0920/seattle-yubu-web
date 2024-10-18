@@ -7,7 +7,7 @@ function YubuNavBar() {
   return (
     <Navbar
       expand="lg"
-      className="bg-body-tertiary flex justify-content-between z-1"
+      className="bg-transparent flex justify-content-between z-1"
     >
       <Container>
         <Navbar.Brand href="#home">
@@ -19,9 +19,12 @@ function YubuNavBar() {
             alt="Seattle Yubu logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          className="border border-0 shadow-none"
+        />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto text-center">
             <Nav.Link href="#menu">Menu</Nav.Link>
             <Nav.Link href="#order">Order</Nav.Link>
             <Nav.Link href="#order">Catering</Nav.Link>
