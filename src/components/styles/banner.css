@@ -3,3 +3,9 @@
   color: #ffb82d;
   font-size: 80px;
 }
+
+.banner-image {
+  img {
+    object-fit: cover;
+  }
+}

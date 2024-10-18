@@ -12,7 +12,7 @@ const YubuBanner = () => {
       <Row className="position-absolute top-0 start-0 end-0">
         <Image
           src={require("../assets/banner.JPEG")}
-          className="vh-100"
+          className="banner-image vh-100"
           rounded
         />
       </Row>
