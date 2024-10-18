@@ -5,7 +5,5 @@
 }
 
 .banner-image {
-  img {
-    object-fit: cover;
-  }
+  object-fit: cover;
 }
