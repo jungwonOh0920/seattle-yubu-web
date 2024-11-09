@@ -33,7 +33,7 @@ const YubuBanner = () => {
             />
           </div>
           <Carousel.Caption>
-            <h3 className="text-amber-400 text-5xl" style={{textShadow: "2px 2px #000000"}}>Yes, we do catering for your team lunch, events, venue, or even home party.</h3>
+            <h3 className="text-amber-400 text-5xl" style={{textShadow: "2px 2px #000000"}}>Yes, we do catering for your team lunch, events, venue, or even home party!</h3>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1000}>
