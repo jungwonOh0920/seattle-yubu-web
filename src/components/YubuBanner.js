@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/banner.css";
 import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 const YubuBanner = () => {
   return (
@@ -10,7 +9,7 @@ const YubuBanner = () => {
         <Carousel.Item interval={1500}>
           <div className="h-128 relative">
             <img
-              className="absolute left-1/2 h-48 -translate-x-1/2 translate-y-1/2 z-1"
+              className="absolute left-1/2 md:h-48 h-0 -translate-x-1/2 translate-y-1/2 z-1"
               src={require("../assets/singleYubu.png")}
               alt="solo-logo"
             />
@@ -33,6 +32,9 @@ const YubuBanner = () => {
               alt="second"
             />
           </div>
+          <Carousel.Caption>
+            <h3 className="text-amber-400 text-5xl" style={{textShadow: "2px 2px #000000"}}>Yes, we do catering for your team lunch, events, venue, or even home party.</h3>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={1000}>
           <div className="h-128">
