@@ -25,16 +25,16 @@ function YubuNavBar() {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto text-center">
-            <Nav.Link href="#menu" className="text-light">
+            <Nav.Link href="#menu">
               Menu
             </Nav.Link>
-            <Nav.Link href="#order" className="text-light">
+            <Nav.Link href="#order">
               Order
             </Nav.Link>
-            <Nav.Link href="#order" className="text-light">
+            <Nav.Link href="#order">
               Catering
             </Nav.Link>
-            <Nav.Link href="#contact" className="text-light">
+            <Nav.Link href="#contact">
               Contact
             </Nav.Link>
           </Nav>
