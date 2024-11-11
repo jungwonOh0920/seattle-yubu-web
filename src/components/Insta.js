@@ -2,7 +2,7 @@ import React from 'react'
 
 function Insta() {
     return (
-        <div>Insta</div>
+        <p className='text-yellow-300'>Insta</p>
     )
 }
 
