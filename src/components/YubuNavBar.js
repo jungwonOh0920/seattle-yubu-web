@@ -31,7 +31,7 @@ function YubuNavBar() {
             <Nav.Link href="#order">
               Order
             </Nav.Link>
-            <Nav.Link href="#order">
+            <Nav.Link href="#catering">
               Catering
             </Nav.Link>
             <Nav.Link href="#contact">
