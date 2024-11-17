@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 
 function Insta() {
     return (
-        <div className='max-w-7xl mx-auto text-center py-8'>
+        <div className='max-w-7xl mx-auto text-center py-8 overflow-x-hidden'>
             <div className='border-b-2 border-slate-800 py-4'>
                 <h2>New Updates</h2>
             </div>
