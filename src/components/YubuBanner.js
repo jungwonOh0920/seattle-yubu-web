@@ -6,7 +6,7 @@ import Carousel from 'react-bootstrap/Carousel';
 const YubuBanner = () => {
   return (
     <>
-      <Carousel>
+      <Carousel fade>
         <Carousel.Item interval={1500}>
           <div className="h-128 relative">
             <img
