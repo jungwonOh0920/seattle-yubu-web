@@ -1,7 +1,6 @@
 import React from "react";
 import "./styles/banner.css";
-import Carousel from 'react-bootstrap/Carousel';
-// import ExampleCarouselImage from 'components/ExampleCarouselImage';
+import Carousel from 'react-bootstrap/Carousel'
 
 const YubuBanner = () => {
   return (
