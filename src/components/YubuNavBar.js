@@ -10,7 +10,7 @@ function YubuNavBar() {
       className="bg-transparent flex justify-content-between z-1"
     >
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img
             src={require("../assets/logo.png")}
             width="160"
@@ -34,7 +34,7 @@ function YubuNavBar() {
             <Nav.Link href="#catering">
               Catering
             </Nav.Link>
-            <Nav.Link href="#contact">
+            <Nav.Link href="/contact">
               Contact
             </Nav.Link>
           </Nav>
