@@ -1,11 +1,11 @@
 import React from 'react'
 import YubuBanner from '../components/YubuBanner'
 import Insta from '../components/Insta'
-// import {Button} from 'react-bootstrap'
-// import {useNavigate} from "react-router-dom";
+import {Button} from 'react-bootstrap'
+import {useNavigate} from "react-router-dom";
 
 function Home() {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -19,6 +19,14 @@ function Home() {
                     Contact Us!
                 </Button>
             </div> */}
+            <div className='text-center py-5'>
+                <Button
+                    variant="dark"
+                    size='lg'
+                    onClick={() => navigate("/menu")}>
+                    Menu 🤌
+                </Button>
+            </div>
         </div>
     )
 }
