@@ -19,12 +19,12 @@ function Contact() {
 
     }
 
-    useEffect((context) => {
+    useEffect(() => {
         if (validated) {
             console.log('form: ', form);
-            console.log('service id: ', context.env.SERVICE_ID);
-            emailjs.sendForm(context.env.SERVICE_ID, context.env.TEMPLATE_ID, form.current, {
-                publicKey: context.env.PUBLIC_KEY
+            console.log('service id: ', process.env.REACT_APP_SERVICE_ID);
+            emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, {
+                publicKey: process.env.REACT_APP_PUBLIC_KEY
             }).then(
                 () => {
                     console.log('SUCCESS!');
