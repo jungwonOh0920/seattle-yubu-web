@@ -11,14 +11,14 @@ function Home() {
         <div>
             <YubuBanner />
             <Insta />
-            <div className='text-center py-5'>
+            {/* <div className='text-center py-5'>
                 <Button
                     variant="warning"
                     size='lg'
-                    onClick={() => navigate("/contact")}>
+                    onClick={() => navigate("#contact")}>
                     Contact Us!
                 </Button>
-            </div>
+            </div> */}
         </div>
     )
 }

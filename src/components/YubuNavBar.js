@@ -19,7 +19,7 @@ function YubuNavBar() {
             alt="Seattle Yubu logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle
+        {/* <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           className="border border-0 shadow-none"
         />
@@ -34,11 +34,11 @@ function YubuNavBar() {
             <Nav.Link href="#catering">
               Catering
             </Nav.Link>
-            <Nav.Link href="/contact">
+            <Nav.Link href="#contact">
               Contact
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );
