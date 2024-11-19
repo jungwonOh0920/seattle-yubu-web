@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+// import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 function YubuNavBar() {
@@ -19,7 +19,7 @@ function YubuNavBar() {
             alt="Seattle Yubu logo"
           />
         </Navbar.Brand>
-        <Navbar.Toggle
+        {/* <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           className="border border-0 shadow-none"
         />
@@ -38,7 +38,7 @@ function YubuNavBar() {
               Contact
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */}
       </Container>
     </Navbar>
   );
