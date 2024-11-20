@@ -10,6 +10,9 @@ function Home() {
     return (
         <div>
             <YubuBanner />
+            <div className='text-center my-5'>
+                <Button variant='warning' size="lg" href='https://www.instagram.com/seattleyubu/'>Order on Instagram</Button>
+            </div>
             <Insta />
             {/* <div className='text-center py-5'>
                 <Button

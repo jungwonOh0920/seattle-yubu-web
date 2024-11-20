@@ -20,7 +20,7 @@ const YubuBanner = () => {
             />
           </div>
           <Carousel.Caption>
-            <h3 className="text-amber-400 text-5xl" style={{textShadow: "2px 2px #000000"}}>Seattle Yubu Coming Soon</h3>
+            <h3 className="text-amber-400 text-5xl" style={{textShadow: "2px 2px #000000"}}>Yubu:</h3>
             <p className="text-amber-400 text-3xl" style={{textShadow: "2px 2px #000000"}}>Fun-filled tofu pockets topped with your favorite flavors.</p>
           </Carousel.Caption>
         </Carousel.Item>
